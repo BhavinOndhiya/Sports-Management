@@ -1,0 +1,51 @@
+/* Container styles */
+.home-container {
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .home-header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid and card styles */
+  .facility-card {
+    height: 100%;
+  }
+  
+  .facility-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .facility-details {
+    flex-grow: 1;
+  }
+  
+  .facility-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button styles */
+  .book-now-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .book-now-button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Loading indicator */
+  .loading-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
